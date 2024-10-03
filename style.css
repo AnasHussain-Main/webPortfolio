@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Varela+Round&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -32,6 +33,7 @@ body {
 }
 
 .navbar a { 
+    font-family:'Varela Round', sans-serif;
     font-size: 20px;
     color: black;
     text-decoration: none;
@@ -42,13 +44,13 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-    color: #04D9FF;
+    color: red;
 }
 
 .home {
     display: flex;
     align-items: center;
-    height:105vh;
+    height:95vh;
     padding: 0 10%;
     background-image: url(kawsImage.png);
     background-size: 48%;
@@ -58,6 +60,7 @@ body {
 
 .home-content{ 
     max-width: 700px;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .home-content h1 {
@@ -69,7 +72,7 @@ body {
     padding: 10px 0 10px 0;
     font-size: 35px;
     font-weight: 300;
-    color: #04D9FF;
+    color: red;
 }
 
 .home-content h3 {
@@ -79,6 +82,7 @@ body {
 }
 
 .home-content .btn-box {
+    font-family: 'Quicksand', sans-serif;
     display: flex;
     justify-content: space-between;
     margin: 5px 0 5px 0;
@@ -89,11 +93,11 @@ body {
 
 .btn-box a {
     margin: 8px 0 0 0;
-    color: #04D9FF;
+    color: red;
     width: 150px;
     height: 100%;
     background-color: transparent;
-    border: 2px solid #04D9Ff;
+    border: 2px solid red;
     border-radius: 8px;
     text-decoration: none;
     display: inline-flex;
@@ -104,7 +108,7 @@ body {
 }
 
 .btn-box a:hover{
-    color: white;
+    color: black;
     transition: .3s;
 
 }
