@@ -120,6 +120,66 @@ footer{
     color: black;
 }
 
+/*------------------------------------------------*/
+
+/*About Me Page*/
+
+.basket {
+    font-family:'Varela Round', sans-serif;
+    background: linear-gradient(90deg, #020024, #090979, #00d4ff);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170vh;
+    margin: 0;
+
+}
+
+.eggs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.eggs h1{
+    padding-top: 10px;
+    font-size: 30px;
+    color: #ff6b6b;
+
+}
+
+.eggs h2 {
+    font-size: 60px;;
+    color: #45cea2;
+    font-weight: 400;
+}
+
+.eggs p {
+    color: red;
+    padding-top: 10px;
+    font-size: 23px;
+    font-weight: 400;
+    
+}
+
+.eggs video{
+    padding-top: 20px;
+    width: 60%;
+}
+
+.eggs img{
+    border-radius: 100%;
+    width: 230px;
+    padding: 10px 0 0 0;
+}
+
+
+/*------------------------------------------------*/
+
+
 /*-----Contact Page-----*/
 .container{
     font-family: 'Quicksand', sans-serif;
