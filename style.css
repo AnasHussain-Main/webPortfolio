@@ -176,6 +176,50 @@ footer{
     padding: 10px 0 0 0;
 }
 
+/*------------------------------------------------*/
+
+
+/*-----MY Projects Page-----*/
+
+
+.three {
+    font-family: 'Quicksand', sans-serif;
+    color: whitesmoke;
+    padding: 0 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #090979;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.project {
+    background-color: rgb(211, 0, 0);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    margin: 0 0 10px;
+}
+
+p {
+    margin: 5px 10px;
+}
+
+
 
 /*------------------------------------------------*/
 
